@@ -3,17 +3,18 @@ header img {
     height: 100px;
 }
 .header--title-container {
-    height: 120px;
+    height: 300px;
 }
 .main-exchange-container {
-    background-attachment: fixed;
     padding-top: 0;
 }
-.main-exchange-container .backgroungImg  {
+.backgroungImg  {
     width: 100%;
+    height: 400px;
     background-attachment: fixed;
 }
 .main-tables-container {
+    overflow-x: hidden;
     display: flex;
     width: 930px;
     margin: 0 auto;
@@ -25,8 +26,12 @@ header img {
     margin: 0 auto;
 }
 .plans-container--slider {
+    overflow-x: hidden;
     justify-content: center;
 }
 .bitcoin-img-container {
     background-attachment: fixed;
+}
+footer .right img {
+    width: 90px;
 }

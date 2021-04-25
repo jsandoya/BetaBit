@@ -92,7 +92,6 @@ main {
 .main-exchange-container {
     width: 100%;
     height: auto;
-    padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -102,12 +101,12 @@ main {
     max-width: 900px;
     margin: 0 auto;
 }
-.main-exchange-container .backgroungImg {
+.backgroungImg {
     width: 200px;
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background: url('../assets/img/Bitcoin.svg') center/cover no-repeat;
+    background: url('../assets/img/BitcoinTablet.svg') center/cover no-repeat;
 }
 .main-exchange-container h2 {
     margin-bottom: 30px;
@@ -123,9 +122,18 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    height: auto;
+    padding: 5px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table, .main-commissions-table {
+    scroll-snap-align: center;
     width: 70%;
-    min-width: 235px;
+    min-width: 320px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
