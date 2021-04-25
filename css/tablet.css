@@ -1,0 +1,32 @@
+header img {
+    width: 220px;
+    height: 100px;
+}
+.header--title-container {
+    height: 120px;
+}
+.main-exchange-container {
+    background-attachment: fixed;
+    padding-top: 0;
+}
+.main-exchange-container .backgroungImg  {
+    width: 100%;
+    background-attachment: fixed;
+}
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}
+.bitcoin-img-container {
+    background-attachment: fixed;
+}
